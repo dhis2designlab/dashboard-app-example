@@ -7,7 +7,6 @@ const query = { me: { resource: 'me', fields: 'displayName' } }
 
 const StyledHeading = styled.h1`
     font-size: 8vw;
-    font-weight: 500;
 `
 
 export const Welcome = () => {

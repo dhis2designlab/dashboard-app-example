@@ -1,4 +1,5 @@
 import React from 'react'
+import { node } from 'prop-types'
 import styled from 'styled-components'
 
 const StyledMain = styled.main`
@@ -6,8 +7,6 @@ const StyledMain = styled.main`
     justify-content: center;
 `
 
-export const Main = ({children}) => (
-    <StyledMain>
-        {children}
-    </StyledMain>
-)
+export const Main = ({ children }) => <StyledMain>{children}</StyledMain>
+
+Main.propTypes = { children: node }
