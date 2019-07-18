@@ -9,4 +9,4 @@ const StyledMain = styled.main`
 
 export const Main = ({ children }) => <StyledMain>{children}</StyledMain>
 
-Main.propTypes = { children: node }
+Main.propTypes = { children: node.isRequired }

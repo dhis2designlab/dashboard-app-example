@@ -16,6 +16,6 @@ export const App = ({ baseUrl, apiVersion }) => (
 )
 
 App.propTypes = {
-    baseUrl: string,
-    apiVersion: number,
+    baseUrl: string.isRequired,
+    apiVersion: number.isRequired,
 }
